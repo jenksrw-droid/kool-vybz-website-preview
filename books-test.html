@@ -23,7 +23,7 @@ const bookCovers = {
   "Big Feelings: Coloring and Activity Book": "big-feelings.webp",
   "Big & Easy: Transportation Coloring Book": "transportation.webp"
 };
-
+document.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll(".card").forEach(card => {
   const title = card.querySelector("h2")?.textContent.trim();
   const filename = bookCovers[title];
