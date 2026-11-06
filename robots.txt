@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jenksrw-droid.github.io/kool-vybz-website-preview/sitemap.xml
